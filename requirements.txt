@@ -1,0 +1,14 @@
+alur:
+
+npm init -y
+npm install --save express
+
+node index.js (to run program)
+
+npm install --save-dev nodemon (for the terminal that dont need to stop and restart it again when there is a change)
+add this into package.json
+"scripts": {
+    "start": "nodemon index.js"
+  },
+use npm start to run
+
